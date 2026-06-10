@@ -142,5 +142,12 @@ python -m day02.app --prompt "短い俳句を作ってください" --temperatur
 調べたURLや、理解した要点をメモしてください。
 
 - Bedrockのモデル呼び出し方法（boto3等）
+- https://docs.aws.amazon.com/boto3/latest/reference/services/bedrock-runtime.html
+- https://qiita.com/kankigyo2/items/3a3fe826493bd7e84e9d
+- https://docs.aws.amazon.com/bedrock/latest/userguide/bedrock-runtime_example_bedrock-runtime_InvokeModel_AnthropicClaude_section.html
+- ↓リクエスト、レスポンスに必要な項目
+- https://qiita.com/enumura1/items/d7d478509833264a138d
+- ↓本文はJSON形式で提出する必要があることが書いてある
+- https://docs.aws.amazon.com/boto3/latest/reference/services/bedrock-runtime/client/invoke_model.html
 - 利用する認証方式（研修の指示に従う）
 - タイムアウト/リトライの考え方
